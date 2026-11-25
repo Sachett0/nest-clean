@@ -1,9 +1,9 @@
-import { Module } from "@nestjs/common";
-import { ConfigModule } from "@nestjs/config";
-import { PrismaService } from "./prisma/prisma.service";
-import { envSchema } from "./env";
-import { AuthModule } from "./auth/auth.module";
-import { HttpModule } from "./http/http.module";
+import { Module } from '@nestjs/common'
+import { ConfigModule } from '@nestjs/config'
+import { PrismaService } from './prisma/prisma.service'
+import { envSchema } from './env'
+import { AuthModule } from './auth/auth.module'
+import { HttpModule } from './http/http.module'
 
 @Module({
   imports: [
